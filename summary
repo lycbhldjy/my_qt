@@ -1,0 +1,2 @@
+1:QScopedPointer
+    QScopedPointer在其生命期结束后会自动删除它所指的对象。（管理所指对象的生命周期）
