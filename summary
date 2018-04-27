@@ -1,4 +1,4 @@
 1:QScopedPointer
     QScopedPointer在其生命期结束后会自动删除它所指的对象。（管理所指对象的生命周期）
 2:清空容器的操作
-    容器的clear()不会自动释放内存，需要之前调用qDeleteAll();
+    容器T为指针类型时，clear()不会自动释放内存，需要之前调用qDeleteAll();
